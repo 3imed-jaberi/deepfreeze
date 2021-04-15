@@ -1,6 +1,6 @@
 {
   "name": "@3imed-jaberi/deepfreeze",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The modern and amiable deep freeze, works with Map and Set 🥶",
   "main": "index.js",
   "files": [
