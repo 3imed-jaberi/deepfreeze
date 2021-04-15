@@ -12,8 +12,8 @@
 [travis-url]: https://travis-ci.org/3imed-jaberi/deepfreeze
 [coverage-img]: https://coveralls.io/repos/github/3imed-jaberi/deepfreeze/badge.svg?branch=master
 [coverage-url]: https://coveralls.io/github/3imed-jaberi/deepfreeze?branch=master
-[npm-badge]: https://img.shields.io/npm/v/deepfreeze.svg?style=flat
-[npm-url]: https://www.npmjs.com/package/deepfreeze
+[npm-badge]: https://img.shields.io/npm/v/@3imed-jaberi/deepfreeze.svg?style=flat
+[npm-url]: https://www.npmjs.com/package/@3imed-jaberi/deepfreeze
 [license-badge]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
 [license-url]: https://github.com/3imed-jaberi/deepfreeze/blob/master/LICENSE
 [code-size-badge]: https://img.shields.io/github/languages/code-size/3imed-jaberi/deepfreeze
