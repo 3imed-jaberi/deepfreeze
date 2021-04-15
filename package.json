@@ -1,1 +1,62 @@
-# init 🚧 .. 
+{
+  "name": "@3imed-jaberi/deepfreeze",
+  "version": "0.1.0",
+  "description": "The modern and amiable deep freeze, works with Map and Set 🥶",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3imed-jaberi/deepfreeze.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha index.spec.js --exit",
+    "precoverage": "rimraf .nyc_output coverage",
+    "coverage": "nyc npm run test",
+    "ci": "npm run coverage"
+  },
+  "keywords": [
+    "freeze",
+    "deep-freeze",
+    "objects",
+    "arrays",
+    "functions",
+    "set",
+    "map",
+    "primitives",
+    "pure-freeze",
+    "deep-clone",
+    "util"
+  ],
+  "author": {
+    "name": "imed jaberi",
+    "email": "imed-jaberi@outlook.com",
+    "url": "https://www.3imed-jaberi.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.24.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "mocha": "^8.3.2",
+    "nyc": "^15.1.0",
+    "rimraf": "^3.0.2"
+  },
+  "enignes": {
+    "node": ">= 10"
+  },
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/deepfreeze/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/deepfreeze#readme"
+}
